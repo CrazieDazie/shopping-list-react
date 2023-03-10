@@ -1,0 +1,97 @@
+body {
+  background-image: url('shoppingpic.jpg');
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ffe8b6;
+}
+
+.app {
+  background-color: #faf3e39d;
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 4px 30px #0000004f;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 20px;
+}
+
+.crossed {
+  text-decoration: line-through 2px #ff9b2d;
+  color: #6d6d6d;
+  background-color: #f8efdbc5;
+  border-radius: 5px;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 0px 20px 0px 20px;
+  margin: 5px;
+  font-family: 'Philosopher', sans-serif;
+  border-radius: 5px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px #0000004f;
+}
+
+h1 {
+  font-family: 'Philosopher', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 7px;
+  border: none;
+  width: 70%;
+  font-size: 16px;
+  font-family: 'Philosopher', sans-serif; 
+  margin: 7px;
+  box-shadow: 0 4px 8px #0000004f;
+}
+
+.add {
+  background: #ffe8b6;
+  margin-top: 7px;
+  color: #000000;
+  flex: 1;
+  border-radius: 55px 55px 5px 5px;
+}
+
+.delete {
+  background: linear-gradient(220deg, rgba(255,232,182,1) 0%, rgba(250,123,164,1) 38%, rgba(246,78,81,1) 88%);
+  margin-bottom: 10px;
+  color: white;
+  flex: 1;
+  border-radius: 5px 5px 55px 55px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  margin: 10px;
+  font-family: 'Philosopher', sans-serif; 
+  border: 1px solid #f64e51;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px #0000004f;
+}
+
+.imgOne {
+  border-radius: 10% 10% 85% 40% ;
+}
+
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
